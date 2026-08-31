@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Inducción en Seguridad y Salud en el Trabajo — Distrileco Caucasia S.A.S.</title>
+<meta name="description" content="Inducción y reinducción en Seguridad y Salud en el Trabajo para el personal de Distrileco Caucasia S.A.S., con la normatividad colombiana vigente a 2026, evaluación y constancia de asistencia.">
+<meta name="author" content="Vibras Positivas HM">
+<meta name="theme-color" content="#0d1b2a">
+<link rel="manifest" href="./manifest.json">
+<link rel="icon" href="./icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="./icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Inducción SST">
+
+<!-- Open Graph / Twitter -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Biblioteca Legal Colombiana — Vibras Positivas HM">
+<meta property="og:locale" content="es_CO">
+<meta property="og:title" content="Inducción en Seguridad y Salud en el Trabajo — Distrileco Caucasia S.A.S.">
+<meta property="og:description" content="Inducción SST con normatividad colombiana vigente a 2026: Decreto 1072 de 2015, Resolución 0312 de 2019, Ley 2466 de 2025 y Decreto 1040 de 2026. Evaluación y constancia de asistencia.">
+<meta property="og:url" content="https://haroldco45.github.io/biblioteca-legal/induccion-sst-distrileco/">
+<meta property="og:image" content="https://haroldco45.github.io/biblioteca-legal/induccion-sst-distrileco/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Inducción en Seguridad y Salud en el Trabajo — Distrileco Caucasia S.A.S.">
+<meta name="twitter:description" content="Inducción SST con normatividad colombiana vigente a 2026. Evaluación y constancia de asistencia.">
+<meta name="twitter:image" content="https://haroldco45.github.io/biblioteca-legal/induccion-sst-distrileco/og-image.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --tinta:#0d1b2a;
+  --tinta-2:#132638;
+  --tinta-3:#1b3348;
+  --linea:#22405c;
+  --papel:#f5f2ec;
+  --papel-2:#ffffff;
+  --dorado:#c8a45a;
+  --dorado-claro:#e2c689;
+  --texto:#eaf0f6;
+  --texto-tenue:#9fb3c6;
+  --tinta-texto:#16202b;
+  --tinta-texto-tenue:#4f6274;
+
+  /* Colores de señalización ISO 7010 — solo cuando codifican significado */
+  --s-obligacion:#1565a8;
+  --s-advertencia:#e0a800;
+  --s-prohibicion:#b23a2f;
+  --s-salvamento:#1f8a4c;
+
+  --radio:4px;
+  --sombra:0 18px 45px rgba(5,12,20,.35);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *{animation-duration:.001ms !important;transition-duration:.001ms !important}
+}
+body{
+  background:var(--tinta);
+  color:var(--texto);
+  font-family:"Source Serif 4",Georgia,serif;
+  font-size:17px;
+  line-height:1.72;
+  -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3{font-family:"Playfair Display",Georgia,serif;line-height:1.18;font-weight:600}
+.mono{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:.72rem;letter-spacing:.06em}
+a{color:var(--dorado-claro)}
+.wrap{width:100%;max-width:760px;margin:0 auto;padding:0 20px}
+
+/* ---------- Barra de progreso fija ---------- */
+.topbar{
+  position:sticky;top:0;z-index:50;
+  background:rgba(13,27,42,.94);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--linea);
+}
+.topbar-in{display:flex;align-items:center;gap:14px;padding:10px 20px;max-width:760px;margin:0 auto}
+.topbar-marca{font-family:"Playfair Display",serif;font-size:.98rem;color:var(--dorado);white-space:nowrap}
+.barra{flex:1;height:6px;background:var(--tinta-3);border-radius:99px;overflow:hidden}
+.barra i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--dorado),var(--dorado-claro));transition:width .45s ease}
+.topbar-pct{font-family:"JetBrains Mono",monospace;font-size:.78rem;color:var(--texto-tenue);min-width:42px;text-align:right}
+
+/* ---------- Portada ---------- */
+.hero{padding:52px 0 40px;border-bottom:1px solid var(--linea)}
+.hero-grid{display:grid;grid-template-columns:1fr 132px;gap:26px;align-items:center}
+.hero h1{font-size:clamp(1.9rem,6.4vw,2.9rem);font-weight:800;letter-spacing:-.01em}
+.hero h1 em{font-style:normal;color:var(--dorado);display:block}
+.hero-sub{color:var(--texto-tenue);margin-top:14px;font-size:1.02rem;max-width:52ch}
+.empresa{
+  display:inline-block;margin-top:20px;padding:7px 14px;
+  border:1px solid var(--linea);border-radius:99px;
+  font-size:.86rem;color:var(--texto)
+}
+
+/* Sello de avance: elemento firma */
+.sello{width:132px;height:132px;position:relative}
+.sello svg{transform:rotate(-90deg);width:132px;height:132px}
+.sello .pista{fill:none;stroke:#1d3348;stroke-width:6}
+.sello .arco{fill:none;stroke:var(--dorado);stroke-width:6;stroke-linecap:round;transition:stroke-dashoffset .6s cubic-bezier(.4,0,.2,1)}
+.sello-txt{
+  position:absolute;inset:0;display:grid;place-content:center;text-align:center;
+  font-family:"JetBrains Mono",monospace;
+}
+.sello-txt b{display:block;font-size:1.5rem;color:var(--dorado-claro);font-weight:700;line-height:1}
+.sello-txt span{font-size:.58rem;color:var(--texto-tenue);letter-spacing:.14em}
+.sello.aprobado .arco{stroke:var(--s-salvamento)}
+.sello.aprobado .sello-txt b{color:#5fd39a}
+
+/* Reloj */
+.reloj{
+  margin-top:26px;padding:14px 16px;
+  background:var(--tinta-2);border:1px solid var(--linea);border-left:3px solid var(--dorado);
+  border-radius:var(--radio);
+}
+.reloj-fecha{font-size:.98rem;color:var(--texto);text-transform:capitalize}
+.reloj-hora{font-family:"JetBrains Mono",monospace;font-size:1.5rem;color:var(--dorado-claro);font-weight:700;letter-spacing:.04em}
+.reloj-nota{font-size:.78rem;color:var(--texto-tenue)}
+
+/* ---------- Secciones ---------- */
+section{padding:44px 0;border-bottom:1px solid var(--linea)}
+.sec-titulo{font-size:clamp(1.35rem,4.4vw,1.8rem);margin-bottom:6px}
+.sec-intro{color:var(--texto-tenue);margin-bottom:26px;max-width:60ch}
+
+/* Módulos */
+.modulo{
+  border:1px solid var(--linea);border-radius:var(--radio);
+  margin-bottom:12px;background:var(--tinta-2);overflow:hidden;
+}
+.modulo.visto{border-color:rgba(31,138,76,.55)}
+.mod-cab{
+  width:100%;display:grid;grid-template-columns:38px 1fr 22px;gap:14px;align-items:center;
+  padding:16px 18px;background:none;border:0;cursor:pointer;text-align:left;color:inherit;font:inherit;
+}
+.mod-cab:hover{background:#16293c}
+.mod-cab:focus-visible{outline:2px solid var(--dorado);outline-offset:-2px}
+.mod-num{
+  font-family:"JetBrains Mono",monospace;font-size:.82rem;font-weight:700;
+  width:38px;height:38px;display:grid;place-content:center;
+  border:1px solid var(--linea);border-radius:50%;color:var(--dorado);
+}
+.modulo.visto .mod-num{border-color:var(--s-salvamento);color:#5fd39a}
+.mod-tit{font-family:"Playfair Display",serif;font-size:1.06rem;line-height:1.3}
+.mod-meta{display:block;font-family:"JetBrains Mono",monospace;font-size:.66rem;color:var(--texto-tenue);letter-spacing:.06em;margin-top:4px}
+.chevron{color:var(--texto-tenue);transition:transform .3s ease;font-size:1.1rem;line-height:1}
+.modulo.abierto .chevron{transform:rotate(180deg)}
+.mod-cuerpo{display:none;padding:0 18px 20px 70px;border-top:1px solid var(--linea)}
+.modulo.abierto .mod-cuerpo{display:block}
+.mod-cuerpo p{margin:14px 0}
+.mod-cuerpo ul{margin:12px 0 12px 18px}
+.mod-cuerpo li{margin:7px 0}
+.mod-cuerpo h4{font-family:"Playfair Display",serif;font-size:1rem;margin:20px 0 4px;color:var(--dorado-claro)}
+@media(max-width:560px){.mod-cuerpo{padding-left:18px}}
+
+/* Fichas de riesgo por color de señal */
+.riesgo{border-left:3px solid var(--linea);padding:10px 0 10px 14px;margin:14px 0;background:rgba(255,255,255,.02)}
+.riesgo b{display:block;font-family:"Playfair Display",serif;font-size:1rem}
+.r-oblig{border-left-color:var(--s-obligacion)}
+.r-advert{border-left-color:var(--s-advertencia)}
+.r-prohib{border-left-color:var(--s-prohibicion)}
+.r-salva{border-left-color:var(--s-salvamento)}
+
+.norma{
+  display:inline-block;font-family:"JetBrains Mono",monospace;font-size:.68rem;
+  padding:3px 8px;border:1px solid var(--linea);border-radius:2px;
+  color:var(--texto-tenue);margin:3px 4px 3px 0;white-space:nowrap;
+}
+.norma-nueva{border-color:var(--dorado);color:var(--dorado-claro)}
+
+.btn{
+  font:inherit;font-size:.9rem;cursor:pointer;border-radius:var(--radio);
+  padding:11px 18px;border:1px solid var(--dorado);background:none;color:var(--dorado-claro);
+  transition:background .2s ease,color .2s ease;
+}
+.btn:hover{background:var(--dorado);color:var(--tinta)}
+.btn:focus-visible{outline:2px solid var(--dorado-claro);outline-offset:2px}
+.btn-solido{background:var(--dorado);color:var(--tinta);font-weight:600}
+.btn-solido:hover{background:var(--dorado-claro)}
+.btn-visto{border-color:var(--s-salvamento);color:#5fd39a}
+.btn-visto:hover{background:var(--s-salvamento);color:#fff}
+.btn[disabled]{opacity:.45;cursor:not-allowed}
+
+/* Cifras 2026 */
+.cifras{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:1px;background:var(--linea);border:1px solid var(--linea)}
+.cifra{background:var(--tinta-2);padding:18px}
+.cifra b{display:block;font-family:"JetBrains Mono",monospace;font-size:1.18rem;color:var(--dorado-claro);font-weight:700}
+.cifra span{font-size:.82rem;color:var(--texto-tenue);display:block;margin-top:4px;line-height:1.45}
+
+/* Evaluación */
+.pregunta{border:1px solid var(--linea);border-radius:var(--radio);padding:18px;margin-bottom:12px;background:var(--tinta-2)}
+.pregunta > p{font-family:"Playfair Display",serif;font-size:1.02rem;margin-bottom:12px}
+.opcion{display:flex;gap:11px;align-items:flex-start;padding:9px 10px;border-radius:var(--radio);cursor:pointer}
+.opcion:hover{background:#16293c}
+.opcion input{margin-top:7px;accent-color:var(--dorado);flex-shrink:0}
+.opcion span{font-size:.94rem}
+.pregunta.ok{border-color:rgba(31,138,76,.6)}
+.pregunta.mal{border-color:rgba(178,58,47,.6)}
+.retro{margin-top:12px;font-size:.88rem;padding:10px 12px;border-radius:var(--radio);display:none}
+.pregunta.ok .retro,.pregunta.mal .retro{display:block}
+.pregunta.ok .retro{background:rgba(31,138,76,.14);color:#8fe0b5}
+.pregunta.mal .retro{background:rgba(178,58,47,.16);color:#f0a89f}
+.resultado{margin-top:18px;padding:18px;border:1px solid var(--linea);border-radius:var(--radio);display:none;background:var(--tinta-2)}
+.resultado.show{display:block}
+.resultado b{font-family:"Playfair Display",serif;font-size:1.25rem;display:block;margin-bottom:6px}
+
+/* Formulario constancia */
+.campo{margin-bottom:14px}
+.campo label{display:block;font-size:.84rem;color:var(--texto-tenue);margin-bottom:5px}
+.campo input,.campo select{
+  width:100%;padding:11px 13px;font:inherit;font-size:.95rem;
+  background:var(--tinta);border:1px solid var(--linea);border-radius:var(--radio);color:var(--texto);
+}
+.campo input:focus,.campo select:focus{outline:2px solid var(--dorado);outline-offset:-1px}
+.habeas{
+  border:1px solid var(--linea);border-left:3px solid var(--s-obligacion);
+  padding:14px;border-radius:var(--radio);margin:18px 0;font-size:.85rem;color:var(--texto-tenue);
+}
+.check{display:flex;gap:10px;align-items:flex-start;margin-top:10px;cursor:pointer;color:var(--texto)}
+.check input{margin-top:5px;accent-color:var(--dorado);flex-shrink:0}
+.acciones{display:flex;gap:10px;flex-wrap:wrap;margin-top:8px}
+
+/* Constancia */
+#constancia{display:none;margin-top:24px}
+#constancia.show{display:block}
+.acta{
+  background:var(--papel);color:var(--tinta-texto);
+  padding:34px 30px;border-radius:var(--radio);
+  border-top:5px solid var(--dorado);box-shadow:var(--sombra);position:relative;overflow:hidden;
+}
+.acta h3{font-size:1.42rem;color:var(--tinta);line-height:1.25}
+.acta-sup{font-family:"JetBrains Mono",monospace;font-size:.66rem;color:var(--tinta-texto-tenue);letter-spacing:.12em;margin-bottom:8px}
+.acta-linea{height:1px;background:#d6cfc2;margin:18px 0}
+.acta dl{display:grid;grid-template-columns:auto 1fr;gap:7px 16px;font-size:.92rem}
+.acta dt{color:var(--tinta-texto-tenue)}
+.acta dd{font-weight:600}
+.acta-pie{margin-top:22px;font-size:.78rem;color:var(--tinta-texto-tenue);line-height:1.6}
+.firma{margin-top:26px;border-top:1px solid #b9b0a0;width:230px;padding-top:6px;font-size:.8rem;color:var(--tinta-texto-tenue)}
+.estampa{
+  position:absolute;right:18px;bottom:18px;width:104px;height:104px;border:2px solid var(--s-salvamento);
+  border-radius:50%;display:grid;place-content:center;text-align:center;color:var(--s-salvamento);
+  font-family:"JetBrains Mono",monospace;font-size:.58rem;letter-spacing:.1em;transform:rotate(-11deg);opacity:.85;line-height:1.5;
+}
+.oculto-cc{letter-spacing:.1em}
+
+/* Fuentes */
+.fuente{padding:11px 0;border-bottom:1px solid var(--linea);font-size:.9rem}
+.fuente:last-child{border-bottom:0}
+.fuente b{color:var(--texto);font-weight:600}
+.fuente span{display:block;color:var(--texto-tenue);font-size:.84rem}
+
+footer{padding:38px 0 46px;text-align:center;color:var(--texto-tenue);font-size:.85rem}
+footer strong{color:var(--dorado)}
+.aviso{font-size:.82rem;color:var(--texto-tenue);margin-top:12px;line-height:1.6}
+
+#instalar{position:fixed;right:16px;bottom:16px;z-index:60;display:none}
+#instalar.show{display:block}
+.toast{
+  position:fixed;left:50%;bottom:22px;transform:translateX(-50%);
+  background:var(--dorado);color:var(--tinta);padding:11px 20px;border-radius:99px;
+  font-size:.88rem;font-weight:600;z-index:80;opacity:0;pointer-events:none;transition:opacity .3s
+}
+.toast.show{opacity:1}
+
+@media print{
+  body{background:#fff;color:#000}
+  .topbar,.hero,section,footer,#instalar,.acciones,.habeas,form{display:none !important}
+  #seccion-constancia,#constancia,#constancia.show{display:block !important;border:0;padding:0}
+  .acta{box-shadow:none;border:1px solid #999;padding:26px}
+  .wrap{max-width:100%;padding:0}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-in">
+    <span class="topbar-marca">Inducción SST</span>
+    <div class="barra" role="progressbar" aria-label="Avance de la inducción" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="barra-aria"><i id="barra"></i></div>
+    <span class="topbar-pct" id="pct">0 %</span>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <h1>Inducción en seguridad <em>y salud en el trabajo</em></h1>
+        <p class="hero-sub">Todo trabajador que ingresa o se reintegra debe recibir esta inducción antes de empezar labores. Recórrala completa, responda la evaluación y descargue su constancia.</p>
+        <span class="empresa">DISTRILECO CAUCASIA S.A.S. · Bajo Cauca, Córdoba, Nordeste, Urabá y Sucre</span>
+      </div>
+      <div class="sello" id="sello">
+        <svg viewBox="0 0 132 132" aria-hidden="true">
+          <circle class="pista" cx="66" cy="66" r="58"></circle>
+          <circle class="arco" cx="66" cy="66" r="58" id="arco" stroke-dasharray="364.4" stroke-dashoffset="364.4"></circle>
+        </svg>
+        <div class="sello-txt"><b id="sello-num">0</b><span>DE 10</span></div>
+      </div>
+    </div>
+
+    <div class="reloj">
+      <div class="reloj-fecha" id="fecha">—</div>
+      <div class="reloj-hora" id="hora">--:--:--</div>
+      <div class="reloj-nota">Hora legal de Colombia (UTC−5) · zona América/Bogotá</div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section>
+  <div class="wrap">
+    <h2 class="sec-titulo">Por qué esta inducción es obligatoria</h2>
+    <p class="sec-intro">No es un trámite de papel. El Decreto 1072 de 2015 obliga al empleador a capacitar a todo trabajador —incluidos contratistas, aprendices y personal en misión— antes de iniciar labores, y a repetirlo cada año o cuando cambien las condiciones de trabajo.</p>
+
+    <div class="riesgo r-advert">
+      <b>Lo que se juega la empresa</b>
+      El incumplimiento del SG-SST se sanciona con multas de 1 a 500 SMMLV. Si el incumplimiento causa un accidente mortal, la multa puede llegar a 1.000 SMMLV y el Ministerio del Trabajo puede ordenar el cierre del establecimiento (art. 13, Ley 1562 de 2012 y art. 30, Ley 1610 de 2013).
+    </div>
+    <div class="riesgo r-salva">
+      <b>Lo que se juega usted</b>
+      Un accidente en bodega, en la vía o en ruta de ventas le cambia la vida a una familia. La ley existe porque los accidentes en este sector son frecuentes y casi todos son evitables con conductas simples: reportar, usar el equipo, levantar bien la carga y no correr en la moto.
+    </div>
+
+    <p style="margin-top:18px;font-size:.9rem;color:var(--texto-tenue)">
+      Contenido verificado contra la normatividad vigente al <strong id="fecha-corte">31 de agosto de 2026</strong>. Incluye los cambios recientes de la reforma laboral y del nuevo decreto de acoso y violencia laboral.
+    </p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2 class="sec-titulo">Los diez módulos</h2>
+    <p class="sec-intro">Abra cada módulo, léalo y márquelo. El sello de la portada se va llenando; cuando complete los diez, se habilita la evaluación.</p>
+    <div id="modulos"></div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2 class="sec-titulo">Cifras laborales vigentes en Colombia</h2>
+    <p class="sec-intro">Valores que aplican hoy y que cambian el cálculo de su nómina y de las sanciones al empleador.</p>
+    <div class="cifras">
+      <div class="cifra"><b>$1.750.905</b><span>Salario mínimo mensual 2026 (Decreto 1469 de 2025, ratificado por el Decreto 0159 de 2026)</span></div>
+      <div class="cifra"><b>$249.095</b><span>Auxilio de transporte 2026, para quien devengue hasta 2 SMMLV</span></div>
+      <div class="cifra"><b>42 horas</b><span>Jornada máxima semanal desde el 15 de julio de 2026 (Ley 2101 de 2021)</span></div>
+      <div class="cifra"><b>7:00 p. m.</b><span>Hora en que empieza la jornada nocturna y su recargo del 35 % (Ley 2466 de 2025)</span></div>
+      <div class="cifra"><b>90 %</b><span>Recargo por domingo o festivo desde el 1 de julio de 2026; sube a 100 % en julio de 2027</span></div>
+      <div class="cifra"><b>2 días hábiles</b><span>Plazo del empleador para reportar a la ARL y a la EPS un accidente de trabajo</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="seccion-evaluacion">
+  <div class="wrap">
+    <h2 class="sec-titulo">Evaluación</h2>
+    <p class="sec-intro">Diez preguntas sobre lo que acaba de leer. Se aprueba con ocho respuestas correctas. Puede repetirla las veces que necesite.</p>
+    <div id="bloqueo-eval" class="riesgo r-advert"><b>Evaluación bloqueada</b>Complete primero los diez módulos. Le faltan <span id="faltan">10</span>.</div>
+    <div id="preguntas" hidden></div>
+    <div class="acciones" id="acciones-eval" hidden>
+      <button class="btn btn-solido" id="btn-calificar">Calificar evaluación</button>
+      <button class="btn" id="btn-reiniciar-eval">Volver a empezar</button>
+    </div>
+    <div class="resultado" id="resultado"></div>
+  </div>
+</section>
+
+<section id="seccion-constancia">
+  <div class="wrap">
+    <h2 class="sec-titulo">Constancia de inducción</h2>
+    <p class="sec-intro">Con la evaluación aprobada, registre sus datos y genere la constancia. Sirve como soporte del cumplimiento del SG-SST ante el Ministerio del Trabajo y la ARL.</p>
+
+    <form id="form-constancia" autocomplete="off">
+      <div class="campo">
+        <label for="f-nombre">Nombres y apellidos completos</label>
+        <input type="text" id="f-nombre" required placeholder="Como aparece en el documento de identidad">
+      </div>
+      <div class="campo">
+        <label for="f-cedula">Cédula de ciudadanía</label>
+        <input type="text" id="f-cedula" required inputmode="numeric" placeholder="Sin puntos ni comas">
+      </div>
+      <div class="campo">
+        <label for="f-cargo">Cargo</label>
+        <input type="text" id="f-cargo" required placeholder="Ej.: auxiliar de bodega, conductor, vendedor TAT">
+      </div>
+      <div class="campo">
+        <label for="f-area">Área o proceso</label>
+        <select id="f-area" required>
+          <option value="">Seleccione…</option>
+          <option>Bodega y alistamiento</option>
+          <option>Despacho y transporte</option>
+          <option>Fuerza de ventas (TAT)</option>
+          <option>Administración y cartera</option>
+          <option>Compras y proveedores</option>
+          <option>Dirección y gerencia</option>
+          <option>Contratista o personal en misión</option>
+        </select>
+      </div>
+      <div class="campo">
+        <label for="f-tipo">Tipo de capacitación</label>
+        <select id="f-tipo" required>
+          <option>Inducción (ingreso)</option>
+          <option>Reinducción anual</option>
+          <option>Reinducción por cambio de cargo o proceso</option>
+          <option>Reinducción por reintegro laboral</option>
+        </select>
+      </div>
+
+      <div class="habeas">
+        <strong style="color:var(--texto)">Tratamiento de datos personales</strong><br>
+        Sus datos se guardan únicamente en este dispositivo y se usan solo para expedir la constancia y soportar el cumplimiento del SG-SST. No se envían a ningún servidor. Puede solicitar consulta, corrección o supresión ante el responsable del SG-SST de Distrileco Caucasia S.A.S. Ley 1581 de 2012 y Decreto 1074 de 2015.
+        <label class="check">
+          <input type="checkbox" id="f-habeas" required>
+          <span>Autorizo el tratamiento de mis datos personales para este fin y declaro que recibí la inducción completa.</span>
+        </label>
+      </div>
+
+      <div class="acciones">
+        <button type="submit" class="btn btn-solido" id="btn-generar">Generar constancia</button>
+        <button type="button" class="btn" id="btn-imprimir">Imprimir o guardar en PDF</button>
+        <button type="button" class="btn" id="btn-whatsapp">Enviar por WhatsApp</button>
+      </div>
+    </form>
+
+    <div id="constancia">
+      <div class="acta" id="acta">
+        <div class="acta-sup">DISTRILECO CAUCASIA S.A.S. · SISTEMA DE GESTIÓN DE SEGURIDAD Y SALUD EN EL TRABAJO</div>
+        <h3>Constancia de inducción en seguridad y salud en el trabajo</h3>
+        <div class="acta-linea"></div>
+        <dl>
+          <dt>Trabajador</dt><dd id="c-nombre">—</dd>
+          <dt>Documento</dt><dd><span id="c-cedula" class="oculto-cc">—</span></dd>
+          <dt>Cargo</dt><dd id="c-cargo">—</dd>
+          <dt>Área</dt><dd id="c-area">—</dd>
+          <dt>Modalidad</dt><dd id="c-tipo">—</dd>
+          <dt>Fecha y hora</dt><dd id="c-fecha">—</dd>
+          <dt>Resultado</dt><dd id="c-nota">—</dd>
+          <dt>Intensidad</dt><dd>2 horas · 10 módulos · evaluación escrita</dd>
+          <dt>Folio</dt><dd id="c-folio">—</dd>
+        </dl>
+        <div class="acta-linea"></div>
+        <p class="acta-pie">
+          Se deja constancia de que la persona identificada recibió y aprobó la inducción en seguridad y salud en el trabajo, en cumplimiento del artículo 2.2.4.6.11 del Decreto 1072 de 2015 y de los estándares mínimos de la Resolución 0312 de 2019. Contenido: marco legal, política de SST, identificación de peligros, elementos de protección personal, manipulación de cargas, seguridad vial y riesgo público, comités, prevención del acoso y la violencia laboral, reporte de accidentes e incidentes, y plan de emergencias.
+        </p>
+        <div class="firma">Firma del trabajador</div>
+        <div class="estampa" id="estampa">APROBADO<br>SG-SST<br><span id="e-fecha">—</span></div>
+      </div>
+      <p class="aviso">La cédula se muestra enmascarada por defecto. <button class="btn" style="padding:5px 12px;font-size:.8rem" id="btn-ver-cc">Ver documento completo</button></p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2 class="sec-titulo">Normas que sustentan esta inducción</h2>
+    <p class="sec-intro">Matriz legal aplicable a Distrileco Caucasia S.A.S. como empresa de comercio al por mayor, vigente a agosto de 2026.</p>
+    <div id="fuentes"></div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p style="color:var(--texto)">Biblioteca Legal Colombiana</p>
+    <p class="aviso">
+      Documento de carácter formativo. No sustituye el SG-SST documentado de la empresa, el reglamento interno de trabajo, ni la asesoría del responsable de SST o de la ARL.<br>
+      Caucasia, Antioquia · Colombia · <span id="anio">2026</span>
+    </p>
+    <p style="margin-top:18px">Desarrollada por <strong>Vibras Positivas HM</strong> — Derechos de Autor Reservados</p>
+  </div>
+</footer>
+
+<button class="btn btn-solido" id="instalar">Instalar la app</button>
+<div class="toast" id="toast"></div>
+
+<script>
+/* =========================================================
+   Inducción SST — Distrileco Caucasia S.A.S.
+   Desarrollada por Vibras Positivas HM — Derechos de Autor Reservados
+   ========================================================= */
+
+/* --- Configuración editable en un solo lugar --- */
+const CONFIG = {
+  empresa: 'DISTRILECO CAUCASIA S.A.S.',
+  whatsappSST: '573117700431',   // celular del responsable de SST que recibe las constancias
+  arlNombre: 'la ARL de la empresa',
+  telefonoARL: '',               // opcional: línea de la ARL
+  puntoEncuentro: 'el parqueadero frente a la bodega principal',
+  pinAdmin: '2026'               // PIN para ver la cédula completa en la constancia
+};
+
+const RESP = 8; // respuestas correctas mínimas para aprobar
+
+/* ---------- Fecha y hora real de Colombia ---------- */
+const TZ = 'America/Bogota';
+const fmtFecha = new Intl.DateTimeFormat('es-CO', { timeZone: TZ, weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+const fmtHora  = new Intl.DateTimeFormat('es-CO', { timeZone: TZ, hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true });
+const fmtCorto = new Intl.DateTimeFormat('es-CO', { timeZone: TZ, day: '2-digit', month: '2-digit', year: 'numeric' });
+
+function partes() {
+  const p = {};
+  new Intl.DateTimeFormat('en-CA', { timeZone: TZ, year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false })
+    .formatToParts(new Date()).forEach(x => { p[x.type] = x.value; });
+  return p;
+}
+function tick() {
+  const ahora = new Date();
+  document.getElementById('fecha').textContent = fmtFecha.format(ahora);
+  document.getElementById('hora').textContent = fmtHora.format(ahora);
+}
+tick(); setInterval(tick, 1000);
+document.getElementById('fecha-corte').textContent = fmtFecha.format(new Date()).replace(/^\w+,?\s*/, '');
+document.getElementById('anio').textContent = partes().year;
+
+/* ---------- Almacenamiento tolerante a fallos ---------- */
+const CLAVE = 'induccion-sst-distrileco';
+function leer() {
+  try { return JSON.parse(localStorage.getItem(CLAVE) || '{}'); } catch (e) { return {}; }
+}
+function guardar(obj) {
+  try { localStorage.setItem(CLAVE, JSON.stringify(obj)); } catch (e) { /* modo privado: sigue funcionando en memoria */ }
+}
+let estado = Object.assign({ vistos: [], aprobado: false, nota: 0 }, leer());
+
+/* ---------- Contenido de los módulos ---------- */
+const MODULOS = [
+  {
+    t: 'Qué es el SG-SST y para qué existe',
+    m: 'Marco general',
+    h: `
+      <p>El Sistema de Gestión de Seguridad y Salud en el Trabajo es la forma organizada en que la empresa identifica lo que puede hacerle daño, lo controla y lo revisa. Funciona con el ciclo <strong>planear, hacer, verificar y actuar</strong>: no es una carpeta, es una rutina.</p>
+      <h4>Qué debe existir en Distrileco</h4>
+      <ul>
+        <li>Política de SST firmada por la gerencia y divulgada a todo el personal.</li>
+        <li>Matriz de peligros por área, actualizada al menos una vez al año.</li>
+        <li>Plan anual de trabajo con presupuesto, responsables y cronograma.</li>
+        <li>Plan de capacitación, exámenes médicos ocupacionales y plan de emergencias.</li>
+        <li>Autoevaluación de estándares mínimos y plan de mejora.</li>
+      </ul>
+      <div class="riesgo r-advert"><b>Novedad 2026</b>La Circular 027 de 2026 activó el reporte digital de la autoevaluación de estándares mínimos en la plataforma del sistema de riesgos laborales. Ya no basta con tenerla archivada en la oficina: hay que registrarla.</div>
+      <p><span class="norma">Decreto 1072 de 2015</span><span class="norma">Resolución 0312 de 2019</span><span class="norma">Ley 1562 de 2012</span><span class="norma norma-nueva">Circular 027 de 2026</span></p>`
+  },
+  {
+    t: 'Sus derechos y sus deberes como trabajador',
+    m: 'Responsabilidades',
+    h: `
+      <h4>Usted tiene derecho a</h4>
+      <ul>
+        <li>Trabajar en condiciones seguras y recibir los elementos de protección sin costo.</li>
+        <li>Estar afiliado a la ARL desde el primer día, incluso si es contratista o aprendiz.</li>
+        <li>Recibir capacitación en horario laboral y sin descuento de salario.</li>
+        <li>Que le realicen exámenes médicos ocupacionales, cuyo resultado es confidencial y solo lo conoce usted y el médico.</li>
+        <li>Rehusarse a ejecutar una tarea con peligro inminente y reportarla, sin represalias.</li>
+      </ul>
+      <h4>Usted está obligado a</h4>
+      <ul>
+        <li>Cuidar su salud y la de sus compañeros; usar correctamente los elementos de protección.</li>
+        <li>Informar de inmediato cualquier condición insegura, incidente o accidente, por pequeño que parezca.</li>
+        <li>Participar en las capacitaciones, simulacros y actividades del SG-SST.</li>
+        <li>Dar información clara y veraz sobre su estado de salud.</li>
+        <li>Cumplir el reglamento de higiene y seguridad industrial y las normas de tránsito.</li>
+      </ul>
+      <div class="riesgo r-prohib"><b>Incumplir tiene consecuencias</b>El artículo 91 del Decreto Ley 1295 de 1994 permite sancionar al trabajador que no use los elementos de protección o incumpla las normas de seguridad; la reincidencia grave puede terminar en despido con justa causa.</div>
+      <p><span class="norma">Decreto Ley 1295 de 1994</span><span class="norma">Ley 1562 de 2012</span><span class="norma norma-nueva">Resolución 1843 de 2025</span></p>`
+  },
+  {
+    t: 'Los peligros reales de su puesto de trabajo',
+    m: 'Identificación de peligros · GTC 45',
+    h: `
+      <p>Un peligro es la fuente capaz de causar daño; el riesgo es la probabilidad de que ocurra. Estos son los que se han identificado en la operación de la empresa.</p>
+      <div class="riesgo r-advert"><b>Bodega y alistamiento</b>Caída de mercancía apilada, caídas al mismo nivel por derrames o estibas mal ubicadas, golpes con el gato hidráulico, atrapamiento de manos y pies, sobreesfuerzo al levantar cajas, cortes al abrir empaques, contacto eléctrico y presencia de plagas.</div>
+      <div class="riesgo r-advert"><b>Despacho y transporte</b>Accidente de tránsito, volcamiento por carga mal asegurada, caída al subir o bajar del vehículo, riesgo público en carretera, fatiga por jornadas largas y golpe de calor.</div>
+      <div class="riesgo r-advert"><b>Fuerza de ventas TAT</b>Accidente en motocicleta, riesgo público en zonas rurales y barrios, exposición prolongada al sol, deshidratación, posturas forzadas cargando el maletín o el catálogo.</div>
+      <div class="riesgo r-advert"><b>Administración y cartera</b>Postura sentada prolongada, fatiga visual, movimientos repetitivos en teclado, carga mental por metas y por manejo de dinero, y riesgo público en desplazamientos a recaudar.</div>
+      <h4>Peligros que nos tocan a todos</h4>
+      <ul>
+        <li>Eléctrico: tomas recargadas, cables pelados, tableros sin señalizar.</li>
+        <li>Incendio: cartón y plástico acumulados junto a fuentes de calor.</li>
+        <li>Químico: productos de aseo mal rotulados o trasvasados a envases de bebida.</li>
+        <li>Biológico: roedores e insectos en zonas de alimentos.</li>
+        <li>Psicosocial: metas, jornadas y clima laboral.</li>
+      </ul>
+      <p><span class="norma">GTC 45 de 2012</span><span class="norma">Resolución 2400 de 1979</span><span class="norma">Resolución 0773 de 2021</span></p>`
+  },
+  {
+    t: 'Elementos de protección personal',
+    m: 'Control · última barrera',
+    h: `
+      <p>Los elementos de protección son la última defensa, no la primera. Primero se elimina o se controla el peligro; el equipo protege cuando ya no queda otra opción. Son gratuitos, deben reponerse cuando se dañan y son de uso obligatorio.</p>
+      <div class="riesgo r-oblig"><b>Bodega</b>Calzado cerrado antideslizante con puntera de protección, guantes de agarre para manipular cajas, protección lumbar solo como apoyo, y casco cuando se opere o se transite cerca de equipos de elevación.</div>
+      <div class="riesgo r-oblig"><b>Transporte y entrega</b>Chaleco reflectivo visible en cargue y descargue, calzado antideslizante, guantes, hidratación y protección solar.</div>
+      <div class="riesgo r-oblig"><b>Motocicleta</b>Casco certificado y bien abrochado, chaleco o elementos reflectivos, guantes y calzado cerrado. Sin casco no se sale a ruta, así sea un recorrido de cinco minutos.</div>
+      <div class="riesgo r-prohib"><b>Prohibido</b>Modificar, prestar o desechar sin reportar un elemento de protección; usar sandalias en bodega; conducir con audífonos; usar el celular manejando.</div>
+      <p>La faja lumbar no evita las lesiones de espalda por sí sola. Lo que protege es la técnica de levantamiento del módulo siguiente.</p>
+      <p><span class="norma">Resolución 2400 de 1979</span><span class="norma">Decreto 1072 de 2015, art. 2.2.4.6.24</span></p>`
+  },
+  {
+    t: 'Manipulación manual de cargas',
+    m: 'Riesgo biomecánico',
+    h: `
+      <p>Las lesiones de espalda y hombro son la primera causa de incapacidad en distribución. Casi todas vienen de levantar mal, no de levantar mucho.</p>
+      <div class="riesgo r-advert"><b>Límites legales de carga manual</b>Hombres: hasta 25 kg. Mujeres: hasta 12,5 kg. Por encima de eso se usa gato hidráulico, carretilla o se levanta entre dos personas.</div>
+      <h4>Cómo se levanta una caja</h4>
+      <ul>
+        <li>Evalúe el peso antes de agarrar; si duda, pida ayuda.</li>
+        <li>Acérquese a la carga, pies separados al ancho de los hombros.</li>
+        <li>Doble las rodillas, no la espalda. Espalda recta, mirada al frente.</li>
+        <li>Agarre firme con toda la mano, no con las puntas de los dedos.</li>
+        <li>Levante con las piernas, pegando la carga al cuerpo.</li>
+        <li>Gire con los pies, nunca torciendo la cintura.</li>
+        <li>Deposite bajando de nuevo con las rodillas.</li>
+      </ul>
+      <h4>Estibado seguro</h4>
+      <ul>
+        <li>Lo pesado abajo, lo liviano arriba; nunca por encima de la altura segura definida en bodega.</li>
+        <li>No suba a estibas ni a canastas para alcanzar producto: use la escalera.</li>
+        <li>Pasillos libres, sin cajas sueltas en el piso.</li>
+      </ul>
+      <div class="riesgo r-salva"><b>Pausas activas</b>Cinco minutos cada dos horas: cuello, hombros, muñecas, espalda baja y piernas. Es una obligación del sistema, no un permiso especial.</div>
+      <p><span class="norma">Resolución 2400 de 1979, art. 392</span><span class="norma">Resolución 2844 de 2007</span></p>`
+  },
+  {
+    t: 'Seguridad vial y riesgo público en ruta',
+    m: 'El riesgo más grave de la operación',
+    h: `
+      <p>Buena parte de la jornada de Distrileco ocurre fuera de la bodega: camiones, motos y desplazamientos por Bajo Cauca, Córdoba, Nordeste, Urabá y Sucre. El accidente de tránsito en misión es accidente de trabajo.</p>
+      <h4>Antes de salir</h4>
+      <ul>
+        <li>Inspección del vehículo: llantas, frenos, luces, espejos, extintor y botiquín.</li>
+        <li>Documentos vigentes: licencia, SOAT y revisión técnico-mecánica.</li>
+        <li>Carga asegurada y bien distribuida; nada suelto en la cabina.</li>
+        <li>Ruta y horario informados a la empresa.</li>
+      </ul>
+      <h4>En la vía</h4>
+      <ul>
+        <li>Cero alcohol, cero sustancias, cero celular en la mano.</li>
+        <li>Respete los límites de velocidad, sobre todo en zona urbana y escolar.</li>
+        <li>Descanse cada dos horas o cada 200 kilómetros; la fatiga se maneja parando, no con tinto.</li>
+      </ul>
+      <div class="riesgo r-prohib"><b>Riesgo público</b>No exhiba dinero, celulares ni el recaudo. Varíe los horarios y las rutas de cobro cuando sea posible. Ante un atraco: no oponga resistencia, entregue lo material, memorice lo que pueda y repórtelo apenas esté a salvo. Ninguna mercancía ni ningún recaudo vale una vida.</div>
+      <div class="riesgo r-advert"><b>Orden público y clima</b>Si encuentra bloqueo, retén irregular, vía inundada o cualquier situación que le genere duda, deténgase, comuníquese con su jefe y no improvise. La entrega se reprograma.</div>
+      <p><span class="norma">Ley 769 de 2002</span><span class="norma">Ley 1503 de 2011</span><span class="norma">Resolución 40595 de 2022 (PESV)</span></p>`
+  },
+  {
+    t: 'Comités y quién responde por qué',
+    m: 'Participación',
+    h: `
+      <h4>COPASST o vigía de SST</h4>
+      <p>Vigila el cumplimiento del sistema, recorre las áreas, participa en la investigación de accidentes y canaliza las inquietudes del personal. En empresas de menos de diez trabajadores se nombra un vigía. Se elige por votación y se reúne al menos una vez al mes.</p>
+      <h4>Comité de Convivencia Laboral</h4>
+      <p>Recibe y tramita las quejas por presunto acoso laboral, escucha a las partes y busca acuerdos confidenciales. Es bipartito: mitad representantes del empleador, mitad de los trabajadores.</p>
+      <div class="riesgo r-advert"><b>Cambio vigente</b>La Resolución 3461 de 2025 derogó las Resoluciones 652 y 1356 de 2012. El comité ahora tiene un período de dos años, exige comité central más uno por cada centro de trabajo adicional, y no puede integrarlo quien tenga una queja de acoso en su contra o haya sido víctima en el año anterior.</div>
+      <h4>Brigada de emergencias</h4>
+      <p>Personal voluntario y entrenado en primeros auxilios, control de incendios y evacuación. Si le interesa, postúlese: la empresa cubre la formación.</p>
+      <p><span class="norma">Resolución 2013 de 1986</span><span class="norma norma-nueva">Resolución 3461 de 2025</span><span class="norma">Ley 1010 de 2006</span></p>`
+  },
+  {
+    t: 'Ambiente laboral libre de acoso y violencia',
+    m: 'Riesgo psicosocial · norma nueva',
+    h: `
+      <p>La salud en el trabajo también es mental. El acoso laboral es la conducta persistente y demostrable dirigida a infundir miedo, causar perjuicio o inducir la renuncia: maltrato, persecución, discriminación, entorpecimiento, desprotección o inequidad.</p>
+      <div class="riesgo r-advert"><b>Lo más reciente</b>El Decreto 1040 de 2026, expedido el 5 de agosto de 2026, añadió el Capítulo 8 al Decreto 1072 de 2015. Obliga a toda empresa a tener y socializar una política y un protocolo contra el acoso, la violencia, la violencia basada en género y la discriminación, con canales confidenciales de denuncia, ruta de atención, acompañamiento a la víctima y articulación con el SG-SST y con el Comité de Convivencia. Rige desde su publicación, sin plazo de transición.</div>
+      <h4>Qué no es acoso</h4>
+      <p>Exigir el cumplimiento de metas, llamar la atención por un incumplimiento o solicitar el trabajo dentro del horario no es acoso. La diferencia está en la persistencia, la intención de humillar y el trato degradante.</p>
+      <h4>Qué hacer si lo vive o lo presencia</h4>
+      <ul>
+        <li>Documente: fechas, hechos, testigos, mensajes.</li>
+        <li>Repórtelo al Comité de Convivencia por el canal confidencial de la empresa.</li>
+        <li>Si es acoso sexual, la ruta es distinta y no pasa por conciliación: se activa la atención directa y la denuncia.</li>
+        <li>También puede acudir a la inspección de trabajo, la personería municipal o la Defensoría del Pueblo.</li>
+      </ul>
+      <div class="riesgo r-salva"><b>Su salud mental cuenta</b>La empresa aplica la batería de riesgo psicosocial y ofrece acompañamiento. Si está pasando por algo difícil, hable con su jefe o con el responsable de SST: existen rutas de apoyo.</div>
+      <p><span class="norma">Ley 1010 de 2006</span><span class="norma">Ley 2365 de 2024</span><span class="norma">Resolución 2646 de 2008</span><span class="norma norma-nueva">Decreto 1040 de 2026</span></p>`
+  },
+  {
+    t: 'Accidentes e incidentes: cómo se reportan',
+    m: 'Procedimiento crítico',
+    h: `
+      <p>Accidente de trabajo es todo suceso repentino, por causa u ocasión del trabajo, que produzca lesión, perturbación, invalidez o muerte. Incluye lo que ocurre cumpliendo órdenes fuera del sitio de trabajo y en el transporte suministrado por la empresa.</p>
+      <p>Incidente es el suceso que <em>pudo</em> causar lesión y no la causó. También se reporta: es la advertencia gratuita antes del accidente real.</p>
+      <h4>Ruta paso a paso</h4>
+      <ul>
+        <li>Atienda a la persona y asegure el área. Llame al 123 si hay lesión grave.</li>
+        <li>Informe de inmediato a su jefe directo, así la lesión parezca menor.</li>
+        <li>La empresa reporta a la ARL y a la EPS dentro de los <strong>dos días hábiles</strong> siguientes.</li>
+        <li>Acuda al servicio médico: la atención inicial por accidente de trabajo no tiene copago.</li>
+        <li>La investigación se realiza dentro de los <strong>quince días</strong> siguientes, con participación del COPASST.</li>
+      </ul>
+      <div class="riesgo r-prohib"><b>No lo oculte</b>Callar un accidente le quita el derecho a la cobertura de riesgos laborales y expone a la empresa a sanciones. No se investiga para castigar: se investiga para que no le vuelva a pasar a nadie.</div>
+      <p><span class="norma">Ley 1562 de 2012, art. 3</span><span class="norma">Resolución 156 de 2005</span><span class="norma">Resolución 1401 de 2007</span></p>`
+  },
+  {
+    t: 'Emergencias y evacuación',
+    m: 'Plan de respuesta',
+    h: `
+      <p>La bodega concentra cartón, plástico y producto inflamable. Un conato mal manejado se vuelve incendio en minutos.</p>
+      <h4>Al escuchar la alarma</h4>
+      <ul>
+        <li>Suspenda la actividad y desconecte equipos si es seguro hacerlo.</li>
+        <li>Salga caminando por la ruta señalizada, sin correr y sin devolverse por objetos personales.</li>
+        <li>Diríjase al punto de encuentro y espere el conteo de la brigada.</li>
+        <li>Reingrese solo cuando el coordinador de evacuación lo autorice.</li>
+      </ul>
+      <h4>Extintores</h4>
+      <ul>
+        <li>Clase A: papel, cartón, madera. Clase B: líquidos inflamables. Clase C: equipos energizados.</li>
+        <li>Método: hale el pasador, apunte a la base del fuego, apriete y barra de lado a lado.</li>
+        <li>Solo lo usa quien está entrenado y si el fuego es incipiente y tiene salida a su espalda.</li>
+      </ul>
+      <h4>Primeros auxilios: lo esencial</h4>
+      <ul>
+        <li>Proteja la escena, avise al 123 y socorra sin exponerse.</li>
+        <li>Hemorragia: presión directa con apósito limpio.</li>
+        <li>Quemadura: agua a temperatura ambiente; nada de hielo, pasta dental ni remedios caseros.</li>
+        <li>Sospecha de fractura: inmovilice y no mueva a la persona.</li>
+        <li>No dé alimentos ni bebidas a un lesionado.</li>
+      </ul>
+      <div class="riesgo r-salva"><b>Aprenda esto de memoria</b>Punto de encuentro de la sede, ubicación del extintor y del botiquín más cercanos, y el nombre del brigadista de su turno. Si no los sabe todavía, pregúntelos hoy mismo.</div>
+      <p><span class="norma">Decreto 1072 de 2015, art. 2.2.4.6.25</span><span class="norma">Ley 1523 de 2012</span><span class="norma">Resolución 0312 de 2019</span></p>`
+  }
+];
+
+/* ---------- Fuentes normativas ---------- */
+const FUENTES = [
+  ['Ley 9 de 1979', 'Código Sanitario Nacional. Título III: salud ocupacional.'],
+  ['Resolución 2400 de 1979', 'Estatuto de seguridad industrial: vivienda, higiene y seguridad en los establecimientos de trabajo.'],
+  ['Resolución 2013 de 1986', 'Conformación y funcionamiento del COPASST.'],
+  ['Decreto Ley 1295 de 1994', 'Organización y administración del Sistema General de Riesgos Laborales.'],
+  ['Ley 1010 de 2006', 'Medidas para prevenir, corregir y sancionar el acoso laboral.'],
+  ['Resolución 1401 de 2007', 'Investigación de incidentes y accidentes de trabajo.'],
+  ['Resolución 2646 de 2008', 'Factores de riesgo psicosocial y determinación del origen de patologías por estrés.'],
+  ['Ley 1562 de 2012', 'Modifica el Sistema de Riesgos Laborales; define accidente y enfermedad laboral y el régimen de sanciones.'],
+  ['Ley 1581 de 2012', 'Protección de datos personales, aplicable a la información de salud de los trabajadores.'],
+  ['Decreto 1072 de 2015', 'Decreto Único Reglamentario del Sector Trabajo. Libro 2, Parte 2, Título 4, Capítulo 6: SG-SST.'],
+  ['Resolución 0312 de 2019', 'Estándares mínimos del SG-SST según tamaño y nivel de riesgo de la empresa.'],
+  ['Ley 2101 de 2021', 'Reducción gradual de la jornada: 42 horas semanales desde el 15 de julio de 2026.'],
+  ['Resolución 0773 de 2021', 'Aplicación del Sistema Globalmente Armonizado para productos químicos.'],
+  ['Ley 2191 de 2022', 'Derecho a la desconexión laboral.'],
+  ['Resolución 40595 de 2022', 'Metodología del Plan Estratégico de Seguridad Vial.'],
+  ['Ley 2365 de 2024', 'Prevención y sanción del acoso sexual en el ámbito laboral.'],
+  ['Resolución 1843 de 2025', 'Evaluaciones médicas ocupacionales. Deroga la Resolución 2346 de 2007. Vigente desde el 29 de octubre de 2025.'],
+  ['Resolución 3461 de 2025', 'Comité de Convivencia Laboral. Deroga las Resoluciones 652 y 1356 de 2012.'],
+  ['Ley 2466 de 2025', 'Reforma laboral: jornada nocturna desde las 7:00 p. m. y recargo dominical del 90 % desde julio de 2026.'],
+  ['Circular 027 de 2026', 'Reporte digital de la autoevaluación de estándares mínimos del SG-SST.'],
+  ['Decreto 1040 de 2026', 'Prevención, atención y sanción del acoso, la violencia y la discriminación laboral. Adiciona el Capítulo 8 al Decreto 1072 de 2015.']
+];
+
+/* ---------- Evaluación ---------- */
+const PREGUNTAS = [
+  { p: '¿En qué plazo debe la empresa reportar un accidente de trabajo a la ARL y a la EPS?',
+    o: ['Dentro de los dos días hábiles siguientes', 'Dentro del mes siguiente', 'Solo si hubo incapacidad mayor a tres días', 'No existe plazo definido'], c: 0,
+    e: 'Son dos días hábiles, según la Resolución 156 de 2005. La investigación se hace dentro de los quince días siguientes.' },
+  { p: '¿Cuál es la carga máxima que puede levantar manualmente un hombre según el estatuto de seguridad industrial?',
+    o: ['15 kg', '25 kg', '40 kg', 'La que pueda cargar sin marearse'], c: 1,
+    e: '25 kg para hombres y 12,5 kg para mujeres. Por encima se usa ayuda mecánica o se levanta entre dos.' },
+  { p: 'Desde el 15 de julio de 2026, la jornada máxima legal en Colombia es de:',
+    o: ['48 horas semanales', '46 horas semanales', '44 horas semanales', '42 horas semanales'], c: 3,
+    e: '42 horas semanales, último escalón de la Ley 2101 de 2021. El salario mensual no baja: sube el valor de la hora.' },
+  { p: 'Usted ve una estiba mal apilada que puede caerse, pero nadie ha resultado herido. ¿Qué hace?',
+    o: ['Nada, porque no hubo accidente', 'Lo reporta de inmediato al jefe o al COPASST', 'Espera a la reunión mensual para comentarlo', 'Lo arregla solo y no lo comenta'], c: 1,
+    e: 'Eso es una condición insegura y se reporta ya. El incidente es la advertencia gratuita antes del accidente real.' },
+  { p: 'Con la reforma laboral vigente, el recargo nocturno se causa a partir de las:',
+    o: ['6:00 p. m.', '7:00 p. m.', '9:00 p. m.', '10:00 p. m.'], c: 1,
+    e: 'La Ley 2466 de 2025 devolvió el inicio de la jornada nocturna a las 7:00 p. m., con recargo del 35 %.' },
+  { p: '¿Cuál instancia recibe y tramita las quejas por presunto acoso laboral?',
+    o: ['El COPASST', 'La brigada de emergencias', 'El Comité de Convivencia Laboral', 'El área de cartera'], c: 2,
+    e: 'El Comité de Convivencia Laboral, hoy regulado por la Resolución 3461 de 2025, que derogó las Resoluciones 652 y 1356 de 2012.' },
+  { p: '¿Qué norma obliga desde 2026 a tener política y protocolo contra el acoso, la violencia y la discriminación, integrados al SG-SST?',
+    o: ['Decreto 1040 de 2026', 'Resolución 2400 de 1979', 'Ley 100 de 1993', 'Decreto 1607 de 2002'], c: 0,
+    e: 'El Decreto 1040 del 5 de agosto de 2026 adicionó el Capítulo 8 al Decreto 1072 de 2015 y rige desde su publicación.' },
+  { p: 'Suena la alarma de evacuación mientras usted alista un pedido urgente. Lo correcto es:',
+    o: ['Terminar el pedido y luego salir', 'Salir por la ruta señalizada al punto de encuentro, sin devolverse', 'Buscar sus cosas y salir por donde sea más rápido', 'Esperar a que un jefe le confirme si es real'], c: 1,
+    e: 'Se suspende la actividad y se evacua de inmediato por la ruta señalizada. No se corre y no se regresa por objetos personales.' },
+  { p: 'Durante una ruta de cobro, dos personas lo abordan y le exigen el dinero del recaudo. ¿Qué hace?',
+    o: ['Se resiste para proteger el dinero de la empresa', 'Entrega lo material, no opone resistencia y reporta apenas esté a salvo', 'Los persigue para identificarlos', 'No reporta para evitar problemas'], c: 1,
+    e: 'Ninguna mercancía ni ningún recaudo vale una vida. Se entrega, se preserva la integridad y se reporta de inmediato.' },
+  { p: 'Los elementos de protección personal:',
+    o: ['Los paga el trabajador de su salario', 'Son opcionales si el trabajo es rápido', 'Los suministra el empleador sin costo y su uso es obligatorio', 'Solo aplican para la brigada'], c: 2,
+    e: 'El empleador los suministra gratis y debe reponerlos; su uso es obligatorio y su incumplimiento es sancionable.' }
+];
+
+/* ---------- Render de módulos ---------- */
+const cont = document.getElementById('modulos');
+MODULOS.forEach((m, i) => {
+  const visto = estado.vistos.includes(i);
+  const el = document.createElement('article');
+  el.className = 'modulo' + (visto ? ' visto' : '');
+  el.innerHTML = `
+    <button class="mod-cab" aria-expanded="false">
+      <span class="mod-num">${visto ? '✓' : String(i + 1).padStart(2, '0')}</span>
+      <span><span class="mod-tit">${m.t}</span><span class="mod-meta">${m.m}</span></span>
+      <span class="chevron" aria-hidden="true">⌄</span>
+    </button>
+    <div class="mod-cuerpo">
+      ${m.h}
+      <button class="btn btn-visto marcar" data-i="${i}">${visto ? 'Módulo completado' : 'Entendido, marcar como visto'}</button>
+    </div>`;
+  cont.appendChild(el);
+
+  const cab = el.querySelector('.mod-cab');
+  cab.addEventListener('click', () => {
+    const abierto = el.classList.toggle('abierto');
+    cab.setAttribute('aria-expanded', abierto ? 'true' : 'false');
+  });
+  el.querySelector('.marcar').addEventListener('click', (ev) => {
+    const idx = Number(ev.currentTarget.dataset.i);
+    if (!estado.vistos.includes(idx)) {
+      estado.vistos.push(idx);
+      guardar(estado);
+      el.classList.add('visto');
+      el.querySelector('.mod-num').textContent = '✓';
+      ev.currentTarget.textContent = 'Módulo completado';
+      avance();
+      toast('Módulo ' + (idx + 1) + ' completado');
+    }
+    el.classList.remove('abierto');
+    cab.setAttribute('aria-expanded', 'false');
+  });
+});
+
+/* ---------- Fuentes ---------- */
+const contF = document.getElementById('fuentes');
+FUENTES.forEach(([n, d]) => {
+  const div = document.createElement('div');
+  div.className = 'fuente';
+  div.innerHTML = `<b>${n}</b><span>${d}</span>`;
+  contF.appendChild(div);
+});
+
+/* ---------- Progreso ---------- */
+const CIRC = 2 * Math.PI * 58;
+function avance() {
+  const n = estado.vistos.length;
+  const pct = Math.round((n / MODULOS.length) * 100);
+  document.getElementById('barra').style.width = pct + '%';
+  document.getElementById('barra-aria').setAttribute('aria-valuenow', String(pct));
+  document.getElementById('pct').textContent = pct + ' %';
+  document.getElementById('arco').setAttribute('stroke-dashoffset', String(CIRC - (CIRC * n / MODULOS.length)));
+  document.getElementById('sello-num').textContent = n;
+  document.getElementById('faltan').textContent = MODULOS.length - n;
+
+  const listo = n === MODULOS.length;
+  document.getElementById('bloqueo-eval').hidden = listo;
+  document.getElementById('preguntas').hidden = !listo;
+  document.getElementById('acciones-eval').hidden = !listo;
+  if (estado.aprobado) document.getElementById('sello').classList.add('aprobado');
+}
+
+/* ---------- Render de la evaluación ---------- */
+const contP = document.getElementById('preguntas');
+function pintarPreguntas() {
+  contP.innerHTML = '';
+  PREGUNTAS.forEach((q, i) => {
+    const d = document.createElement('div');
+    d.className = 'pregunta';
+    d.dataset.i = i;
+    d.innerHTML = `<p>${i + 1}. ${q.p}</p>` +
+      q.o.map((op, j) => `<label class="opcion"><input type="radio" name="q${i}" value="${j}"><span>${op}</span></label>`).join('') +
+      `<div class="retro">${q.e}</div>`;
+    contP.appendChild(d);
+  });
+}
+pintarPreguntas();
+
+document.getElementById('btn-calificar').addEventListener('click', () => {
+  let ok = 0, sin = 0;
+  PREGUNTAS.forEach((q, i) => {
+    const box = contP.querySelector(`.pregunta[data-i="${i}"]`);
+    const sel = contP.querySelector(`input[name="q${i}"]:checked`);
+    box.classList.remove('ok', 'mal');
+    if (!sel) { sin++; return; }
+    if (Number(sel.value) === q.c) { box.classList.add('ok'); ok++; } else { box.classList.add('mal'); }
+  });
+
+  const res = document.getElementById('resultado');
+  res.classList.add('show');
+  if (sin > 0) {
+    res.innerHTML = `<b>Faltan respuestas</b>Quedan ${sin} preguntas sin responder. Complételas y vuelva a calificar.`;
+    return;
+  }
+  estado.nota = ok;
+  estado.aprobado = ok >= RESP;
+  guardar(estado);
+
+  if (estado.aprobado) {
+    document.getElementById('sello').classList.add('aprobado');
+    res.innerHTML = `<b>Evaluación aprobada: ${ok} de ${PREGUNTAS.length}</b>Ya puede generar su constancia en la sección siguiente.`;
+    document.getElementById('seccion-constancia').scrollIntoView({ behavior: 'smooth' });
+  } else {
+    res.innerHTML = `<b>Resultado: ${ok} de ${PREGUNTAS.length}</b>Se necesitan ${RESP} respuestas correctas. Revise la explicación en cada pregunta marcada y vuelva a intentarlo.`;
+  }
+});
+
+document.getElementById('btn-reiniciar-eval').addEventListener('click', () => {
+  pintarPreguntas();
+  document.getElementById('resultado').classList.remove('show');
+});
+
+/* ---------- Constancia ---------- */
+let cedulaReal = '';
+function enmascarar(cc) {
+  const s = String(cc).replace(/\D/g, '');
+  if (s.length <= 4) return s;
+  return '•'.repeat(Math.max(3, s.length - 4)) + s.slice(-4);
+}
+function milesCC(cc) {
+  return String(cc).replace(/\D/g, '').replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+}
+function folio() {
+  const p = partes();
+  const r = Math.random().toString(36).slice(2, 5).toUpperCase();
+  return `DIS-SST-${p.year}${p.month}${p.day}-${p.hour}${p.minute}-${r}`;
+}
+
+document.getElementById('form-constancia').addEventListener('submit', (ev) => {
+  ev.preventDefault();
+  if (!estado.aprobado) { toast('Primero apruebe la evaluación'); document.getElementById('seccion-evaluacion').scrollIntoView({ behavior: 'smooth' }); return; }
+  if (!document.getElementById('f-habeas').checked) { toast('Debe autorizar el tratamiento de datos'); return; }
+
+  cedulaReal = milesCC(document.getElementById('f-cedula').value);
+  const ahora = new Date();
+
+  document.getElementById('c-nombre').textContent = document.getElementById('f-nombre').value.trim();
+  document.getElementById('c-cedula').textContent = enmascarar(cedulaReal);
+  document.getElementById('c-cargo').textContent = document.getElementById('f-cargo').value.trim();
+  document.getElementById('c-area').textContent = document.getElementById('f-area').value;
+  document.getElementById('c-tipo').textContent = document.getElementById('f-tipo').value;
+  document.getElementById('c-fecha').textContent = fmtFecha.format(ahora) + ', ' + fmtHora.format(ahora) + ' (hora de Colombia)';
+  document.getElementById('c-nota').textContent = `Aprobada · ${estado.nota} de ${PREGUNTAS.length} respuestas correctas`;
+  document.getElementById('c-folio').textContent = folio();
+  document.getElementById('e-fecha').textContent = fmtCorto.format(ahora);
+
+  document.getElementById('constancia').classList.add('show');
+  document.getElementById('constancia').scrollIntoView({ behavior: 'smooth' });
+  toast('Constancia generada');
+});
+
+document.getElementById('btn-ver-cc').addEventListener('click', () => {
+  if (!cedulaReal) { toast('Genere primero la constancia'); return; }
+  const pin = prompt('Documento reservado (Ley 1581 de 2012). Ingrese el PIN del responsable de SST:');
+  if (pin === CONFIG.pinAdmin) {
+    document.getElementById('c-cedula').textContent = cedulaReal;
+    toast('Documento visible');
+  } else if (pin !== null) {
+    toast('PIN incorrecto');
+  }
+});
+
+document.getElementById('btn-imprimir').addEventListener('click', () => {
+  if (!document.getElementById('constancia').classList.contains('show')) { toast('Genere primero la constancia'); return; }
+  window.print();
+});
+
+document.getElementById('btn-whatsapp').addEventListener('click', () => {
+  if (!document.getElementById('constancia').classList.contains('show')) { toast('Genere primero la constancia'); return; }
+  const txt =
+`*CONSTANCIA DE INDUCCIÓN SST*
+${CONFIG.empresa}
+
+Trabajador: ${document.getElementById('c-nombre').textContent}
+Documento: ${document.getElementById('c-cedula').textContent}
+Cargo: ${document.getElementById('c-cargo').textContent}
+Área: ${document.getElementById('c-area').textContent}
+Modalidad: ${document.getElementById('c-tipo').textContent}
+Fecha: ${document.getElementById('c-fecha').textContent}
+Resultado: ${document.getElementById('c-nota').textContent}
+Folio: ${document.getElementById('c-folio').textContent}
+
+Decreto 1072 de 2015 · Resolución 0312 de 2019`;
+  window.open('https://wa.me/' + CONFIG.whatsappSST + '?text=' + encodeURIComponent(txt), '_blank');
+});
+
+/* ---------- Aviso flotante ---------- */
+let tId;
+function toast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  clearTimeout(tId);
+  tId = setTimeout(() => t.classList.remove('show'), 2600);
+}
+
+/* ---------- Instalación PWA ---------- */
+let evtInstalar = null;
+const btnInstalar = document.getElementById('instalar');
+window.addEventListener('beforeinstallprompt', (e) => {
+  e.preventDefault();
+  evtInstalar = e;
+  btnInstalar.classList.add('show');
+});
+btnInstalar.addEventListener('click', async () => {
+  if (!evtInstalar) return;
+  evtInstalar.prompt();
+  await evtInstalar.userChoice;
+  evtInstalar = null;
+  btnInstalar.classList.remove('show');
+});
+window.addEventListener('appinstalled', () => {
+  btnInstalar.classList.remove('show');
+  toast('App instalada en su dispositivo');
+});
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./sw.js').catch(() => {});
+  });
+}
+
+avance();
+</script>
+</body>
+</html>
