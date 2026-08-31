@@ -86,7 +86,7 @@ git push
 URL resultante:
 
 ```
-https://haroldco45.github.io/biblioteca-legal/induccion-sst-distrileco/
+https://haroldco45.github.io/Inducci-en-Seguridad-y-Salud-en-el-Trabajo/
 ```
 
 Si se publica en otra ruta, hay que actualizar `og:url` y `og:image` en `index.html` (deben ser URLs absolutas para que WhatsApp muestre la vista previa).
