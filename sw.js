@@ -1,7 +1,7 @@
 /* Inducción SST — Distrileco Caucasia S.A.S.
    Desarrollada por Vibras Positivas HM — Derechos de Autor Reservados */
 
-const CACHE = 'induccion-sst-distrileco-v1.0.0';
+const CACHE = 'induccion-sst-distrileco-v1.0.1';
 
 const ASSETS = [
   './',
